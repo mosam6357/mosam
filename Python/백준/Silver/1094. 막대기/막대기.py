@@ -1,0 +1,24 @@
+a=int(input()); cnt=0
+while(a!=0):
+    if(a==64):
+        cnt+=1
+        a-=64
+    elif(a>=32):
+        cnt+=1
+        a-=32
+    elif(a>=16):
+        cnt+=1
+        a-=16
+    elif(a>=8):
+        cnt+=1
+        a-=8
+    elif(a>=4):
+        cnt+=1
+        a-=4
+    elif(a>=2):
+        cnt+=1
+        a-=2
+    elif(a>=1):
+        cnt+=1
+        a-=1
+print(cnt)
