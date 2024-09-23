@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    long a; long ans=1L;
-    scanf("%ld", &a);
+    int a; long ans=1;
+    scanf("%d", &a);
     for(int i =0; i<a; ++i){
         ans*=i+1;
     }
