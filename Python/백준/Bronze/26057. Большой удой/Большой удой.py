@@ -1,2 +1,2 @@
 a=int(input()); b=int(input())
-print(abs(a-2*b))
+print(2*b-a)
