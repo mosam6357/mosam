@@ -6,10 +6,9 @@ namespace q{
     class w{
         static void Main(){
             StringBuilder sb = new StringBuilder();
-            StreamReader sr = new StreamReader(new BufferedStream(Console.OpenStandardInput()));
-            int a = int.Parse(sr.ReadLine());
+            int a = int.Parse(Console.ReadLine());
             for (int i =0; i<a; i++){
-                sb.Append($"{long.Parse(sr.ReadLine())*2-1}\n");
+                sb.Append($"{long.Parse(Console.ReadLine())*2-1}\n");
             }
             Console.WriteLine(sb.ToString());
         }
