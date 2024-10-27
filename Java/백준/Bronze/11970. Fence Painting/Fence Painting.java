@@ -11,7 +11,7 @@ public class Main{
             System.out.println(a[1]-a[0]+a[3]-a[2]);
         }
         else{
-            System.out.println((a[1]>a[3]?a[1]:a[3])-(a[0]<a[2]?a[0]:a[2]));
+            System.out.println(Math.max(a[1],a[3])-Math.min(a[0],a[2]));
         }
     }
 }
