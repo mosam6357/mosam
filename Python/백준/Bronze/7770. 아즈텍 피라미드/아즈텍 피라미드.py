@@ -1,0 +1,10 @@
+a=int(input())
+min=1
+f=1
+while(True):
+    f+=1
+    min+=2*f*(f-1)+1
+    if(a<min):
+        f-=1
+        break
+print(f)
