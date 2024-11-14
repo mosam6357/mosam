@@ -2,11 +2,6 @@
 
 int main(){
     int a;
-    scanf("%d", &a);
-    if(a%7==2){
-        printf("1");
-    }
-    else{
-        printf("0");
-    }
+    scanf("%d",&a);
+    printf("%d",a%7==2?1:0);
 }
