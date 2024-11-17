@@ -1,0 +1,15 @@
+a=int(input())
+b=int(input())
+aa=[b]
+if(a>=5):
+    aa.append(b-500)
+if(a>=10):
+    aa.append(int(b*0.9))
+if(a>=15):
+    aa.append(b-2000)
+if(a>=20):
+    aa.append(int(b*0.75))
+if(min(aa)<0):
+    print(0)
+else:
+    print(min(aa))
