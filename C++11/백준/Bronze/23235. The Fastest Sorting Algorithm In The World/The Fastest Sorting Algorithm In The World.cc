@@ -10,7 +10,7 @@ int main(){
         for (int i=0; i<a; i++){
             cin >> b;
         }
-        cout << "Case " << cnt+1 << ": Sorting... done!\n";
+        printf("Case %d: Sorting... done!\n",cnt+1);
         cnt++;
     }
 }
