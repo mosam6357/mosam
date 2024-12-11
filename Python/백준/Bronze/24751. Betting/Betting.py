@@ -1,4 +1,4 @@
-a = float(input())
+a = int(input())
 b = 100-a
-print(1+b/a)
-print(1+a/b)
+print(100/a)
+print(100/b)
