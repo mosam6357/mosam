@@ -1,0 +1,14 @@
+a=int(input())
+t=10
+l=1
+while(True):
+    if(a>t):
+        if(a%t<=4*l):
+            a-=a%t
+        else:
+            a=(a//t+1)*t
+        t*=10
+        l*=10
+    else:
+        break
+print(a)
