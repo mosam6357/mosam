@@ -11,6 +11,6 @@ int main(){
     for (int i=0;i<a;i++){
         cin >> aa[i];
     }
-    stable_sort(aa,aa+a);
+    sort(aa,aa+a);
     cout << aa[b-1];
 }
