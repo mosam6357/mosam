@@ -5,5 +5,8 @@ for i in range(a):
     s,g = map(int,input().split())
     p[s*6+g-1]+=1
 for i in p:
-    cnt += (i+1)//2
+    if i%b==0:
+        cnt+=i//b
+    else:
+        cnt+=i//b+1
 print(cnt)
