@@ -1,6 +1,6 @@
 # [level 0] 수열과 구간 쿼리 3 - 181924 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181924?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181924) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 23일 21:12:07
+2025년 02월 23일 21:12:43
 
 ### 문제 설명
 
