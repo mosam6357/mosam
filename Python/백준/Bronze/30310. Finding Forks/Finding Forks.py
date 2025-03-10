@@ -1,0 +1,6 @@
+a = int(input())
+aa = list(map(int,input().split()))
+ans = min(aa)
+aa.remove(min(aa))
+ans+=min(aa)
+print(ans)
